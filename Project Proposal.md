@@ -1,31 +1,35 @@
-##Flights Recommendation Model
+##Recommendation Model: Fifa Players
 
 #Overview / Introduction:
-First of all, data science nowadays is becoming more important than ever. It the way to an artificial intelligence world while using machine learning techniques to automate, predict and solve problems. In this project, I will be using a recommendation algorithm that recommends solutions and improvements for companies or government sectors to support their decision-making process by discovering data patterns and analyze data to answer questions.
+First of all, data science nowadays is becoming more important than ever. It the way to an artificial intelligence world while using machine learning techniques to automate, predict and solve problems. In this project, I will be building a recommendation system. There are two most important models of recommendation, which are Content-based recommendation and collaborative-based recommendation.
 
 #Question / Need:
-The General Authority of Civil Aviation is the main controller and issuer of all flights in Saudi Arabia. The main need is to have a recommendation system that recommend which airport needs to have more flights based how many passengers and the availability of seats, which suggest more seats that can occupy more passengers that increase revenue.
+My project is building a recommendation system that recommend multiple players, based on the player being search by. In this project, I will be using their similarities to recommend. 
 
 #Data Description:
-Data source: an export of GACA’s database
-Data size: around 100,000 rows 
-Data Features: 14 features
+Data source: Kaggle (https://www.kaggle.com/mohammedessam97/fifa-22-fut-players-dataset)
+Data size: 17020 rows 
+Data Features: 18 features
 
-Features                                                   Description 
-ID                                                         Unique Identifier
-Departure Airport                                          The Departure Airport
-Arrival Airport                                            The Arrival Airport
-Departure Airport Country                                  The Departure Airport Country
-Arrival Airport Country                                    The Arrival Airport Country
-Arrival / Departure 	                                   Flight Direction
-Flight Category	                                           The Flight Category
-Actual Date	                                               The Actual Date of The Flight
-Actual Time	                                               The Actual Time of The Flight
-No of Passengers                                           Total Number of Passengers in The Flight
-No of Seats 	                                           Total Number of Seats in The Flight
-Airline Code	                                           The Airline that Operated The Flight
-Type of Aircraft	                                       The Aircraft Type used in The Flight
-Aircraft Registration Code	                               The Aircraft Registration Code
+Features                              Description 
+Name                                  Player Name
+RAT                                   Overall rating
+POS                                   Postion code
+VER                                   Card type
+PS                                    Player price
+SKI	                                  Player skill
+WF                                    Player weak foot
+WR                                    Player work rate
+PACE	                              Player pace attribute
+SHO                                   Player shooting attribute
+PAS                                   Player passing attribute 
+DRI                                   Player dribble attribute
+DEF 	                              Player defence attribute
+PHY	                                  Player physical attribute
+Body_info	                          Player body information
+Popularity	                          Player Popularity
+BS                                    Unknown
+IGS                                   Unknown
 
 #Tools:
 Numpy: EDA
