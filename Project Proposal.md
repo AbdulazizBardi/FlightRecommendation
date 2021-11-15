@@ -1,10 +1,10 @@
 ##Recommendation Model: Fifa Players
 
 #Overview / Introduction:
-First of all, data science nowadays is becoming more important than ever. It the way to an artificial intelligence world while using machine learning techniques to automate, predict and solve problems. In this project, I will be building a recommendation system. There are two most important models of recommendation, which are Content-based recommendation and collaborative-based recommendation.
+First of all, data science nowadays is becoming more important than ever. It the way to an artificial intelligence world while using machine learning techniques to automate, predict and solve problems. In this project, I will be building a recommendation system by using the K Nearest Neighbor (KNN) algorithm.
 
 #Question / Need:
-My project is building a recommendation system that recommend multiple players, based on the player being search by. In this project, I will be using their similarities to recommend. 
+My project is building a recommendation system that recommend multiple players, based on the player being search by. In this project, I will be using knn to their nearest players based on their similarities. 
 
 #Data Description:
 Data source: Kaggle (https://www.kaggle.com/mohammedessam97/fifa-22-fut-players-dataset)
@@ -35,4 +35,5 @@ IGS                                   Unknown
 Numpy: EDA
 Pandas: EDA
 Matplotlib: Visualization
+Seaborn: Visualization
 Scikit Learn: Modeling
